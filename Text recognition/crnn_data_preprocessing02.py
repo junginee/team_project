@@ -1,7 +1,7 @@
 '''
 gt. txt 파일 구성 
 - 메모장 text 형식
-- 경로/파일명.png   라벨값(손글씨)
+- 경로/파일명.png   라벨값(손글씨)           
 '''
 import json
 import os
