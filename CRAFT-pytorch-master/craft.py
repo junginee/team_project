@@ -7,7 +7,7 @@ MIT License
 원본 이미지의 절반 사이즈에 해당하는 Region score 맵을 만들고 모든 픽셀을 0으로 초기화
 '''
 
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-       
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
