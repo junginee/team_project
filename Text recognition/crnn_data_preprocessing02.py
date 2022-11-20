@@ -8,7 +8,7 @@ import os
 import cv2
 import matplotlib.pyplot as plt
 from tqdm import tqdm
-
+                 
 data_root_path = 'D:\study\deep-text-recognition-benchmark-master/test_image/'
 save_root_path = 'D:/study/deep-text-recognition-benchmark-master/data/'
 
