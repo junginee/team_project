@@ -6,7 +6,7 @@ gt. txt 파일 구성
 import json
 import random
 import os
-import tqdm as tqdm
+import tqdm as tqdm    
 
 file = json.load(open('D:\study\deep-text-recognition-benchmark-master\\test_image\dataset_info.json','rt', encoding='UTF8'))
 
