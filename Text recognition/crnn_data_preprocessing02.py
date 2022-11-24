@@ -4,7 +4,7 @@ gt. txt 파일 구성
 - 경로/파일명.png   라벨값(손글씨)           
 '''
 import json
-import os
+import o
 import cv2
 import matplotlib.pyplot as plt
 from tqdm import tqdm
