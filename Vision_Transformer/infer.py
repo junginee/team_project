@@ -7,7 +7,7 @@ Usage:
 --image: path to image file to convert to text
 
 Inference timing:
-    Quantized on CPU:
+    Quantized on CPU:    
         python3 infer.py --model vitstr_small_patch16_quant.pt --time --quantized
         Average inference time per image: 2.22e-02 sec
 
