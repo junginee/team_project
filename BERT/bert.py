@@ -10,7 +10,7 @@ model = TFBertForMaskedLM.from_pretrained('klue/bert-base', from_pt=True)
 tokenizer = AutoTokenizer.from_pretrained('klue/bert-base')
 
 inputs = tokenizer('치킨은 정말 [MASK]다.', return_tensors='tf')
-# print(inputs['input_ids']) 
+# print(inputs['input_ids'])    
 
 # print(inputs['token_type_ids'])
 #token_type_ids : input data 내 각각의 문장이 몇번째 해당하는지 알려줌
