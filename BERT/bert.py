@@ -5,7 +5,7 @@ from transformers import TFBertForMaskedLM
 from transformers import AutoTokenizer
 
 model = TFBertForMaskedLM.from_pretrained('klue/bert-base', from_pt=True)
-# klue/bert-base 마스크드 언어 모델 형태    
+## klue/bert-base 마스크드 언어 모델 형태    
 
 tokenizer = AutoTokenizer.from_pretrained('klue/bert-base')
 
